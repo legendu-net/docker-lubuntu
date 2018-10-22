@@ -3,7 +3,7 @@ FROM dclong/ubuntu_cn
 ARG url=https://download.nomachine.com/download/6.3/Linux/nomachine_6.3.6_1_amd64.deb
 
 RUN apt-get update \
-    && apt-get install -y \
+    && DEBIAN_FRONTEND=noninteractive apt-get install -y \
         lxqt \
         bash-completion man-db \
         firefox \
