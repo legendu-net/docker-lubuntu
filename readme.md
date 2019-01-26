@@ -72,7 +72,7 @@ docker run -d \
     -e DOCKER_PASSWORD=`id -un` \
     -e DOCKER_GROUP_ID=`id -g` \
     -v `pwd`:/workdir \
-    -v /home:/home_host \
+    -v `dirname $HOME`:/home_host \
     --cap-add=SYS_PTRACE \
     dclong/lubuntu
 ```
@@ -90,7 +90,7 @@ docker run -d \
     -e DOCKER_PASSWORD=`id -un` \
     -e DOCKER_GROUP_ID=`id -g` \
     -v `pwd`:/workdir \
-    -v /home:/home_host \
+    -v `dirname $HOME`:/home_host \
     --cap-add=SYS_PTRACE \
     dclong/lubuntu
 ```
