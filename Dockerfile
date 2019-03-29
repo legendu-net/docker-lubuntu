@@ -16,5 +16,3 @@ RUN apt-get update \
 EXPOSE 4000
 
 COPY scripts /scripts
-
-ENTRYPOINT ["/scripts/init.sh"]
