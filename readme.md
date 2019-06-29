@@ -1,4 +1,4 @@
-# [dclong/lubuntu](https://hub.docker.com/r/dclong/lubuntu/)
+# dclong/lubuntu [@DockerHub](https://hub.docker.com/r/dclong/lubuntu/) | [@GitHub](https://github.com/dclong/docker-lubuntu)
 
 ## Usage in Linux/Unix
 
