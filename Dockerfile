@@ -1,7 +1,8 @@
 FROM dclong/ubuntu_cn
 
 ARG version=6.7.6_11
-ARG url=https://download.nomachine.com/download/${version:0:3}/Linux/nomachine_${version}_amd64.deb
+ARG ver=6.7
+ARG url=https://download.nomachine.com/download/${ver}/Linux/nomachine_${version}_amd64.deb
 
 RUN apt-get update \
     && DEBIAN_FRONTEND=noninteractive apt-get install -y \
