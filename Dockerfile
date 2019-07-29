@@ -1,6 +1,6 @@
 FROM dclong/ubuntu_cn
 
-ARG version=6.6.8_5
+ARG version=6.7.6_11
 ARG url=https://download.nomachine.com/download/${version:0:3}/Linux/nomachine_${version}_amd64.deb
 
 RUN apt-get update \
