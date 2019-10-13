@@ -1,7 +1,8 @@
 FROM dclong/ubuntu_cn
 
 ARG version=6.8.1_1
-ARG url=https://download.nomachine.com/download/${version:0:2}/Linux/nomachine_${version}_amd64.deb
+ARG ver=6.8 # Bash substring does NOT work here!!!
+ARG url=https://download.nomachine.com/download/${ver}/Linux/nomachine_${version}_amd64.deb
 
 RUN apt-get update \
     && DEBIAN_FRONTEND=noninteractive apt-get install -y \
