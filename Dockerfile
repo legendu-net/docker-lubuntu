@@ -1,6 +1,6 @@
 FROM dclong/ubuntu_cn
 
-ARG version=6.8.1_1
+ARG version=6.8.2_1
 # Bash substring does NOT work here!!!
 ARG ver=6.8 
 ARG url=https://download.nomachine.com/download/${ver}/Linux/nomachine_${version}_amd64.deb
