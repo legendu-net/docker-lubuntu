@@ -51,6 +51,8 @@ Please refer to the section
 of the post [My Docker Images](http://www.legendu.net/en/blog/my-docker-images/) 
 for detailed instruction on how to use the desktop environment in the Docker image.
 
+## [Log Information](http://www.legendu.net/en/blog/my-docker-images/#docker-container-logs)
+
 ## [Detailed Information](http://www.legendu.net/en/blog/my-docker-images/#list-of-images-and-detailed-information) 
 
 ## [Use the JupyterHub Server](http://www.legendu.net/en/blog/my-docker-images/#use-the-jupyterhub-server)
