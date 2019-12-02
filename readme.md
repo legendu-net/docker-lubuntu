@@ -60,5 +60,9 @@ for detailed instruction on how to use the desktop environment in the Docker ima
 ## [Add a New User to the JupyterHub Server](http://www.legendu.net/en/blog/my-docker-images/#add-a-new-user-to-the-jupyterhub-server)
 
 ## [Known Issues](http://www.legendu.net/en/blog/my-docker-images/#known-issues)
+In addition to the common known issues due to Docker, 
+below are some issues specific to dclong/lubuntu.
+
+1. Firefox does not work well in the Docker.
 
 ## [About the Author](http://www.legendu.net/pages/about)
