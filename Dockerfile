@@ -9,7 +9,7 @@ RUN apt-get update \
     && DEBIAN_FRONTEND=noninteractive apt-get install -y \
         lxqt \
         firefox \
-    && curl $url -o /nomachine.deb \
+    && curl -sSL $url -o /nomachine.deb \
     && dpkg -i /nomachine.deb \
     && rm /nomachine.deb \
     && mkdir /root/.config \
