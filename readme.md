@@ -1,6 +1,6 @@
 # dclong/lubuntu [@DockerHub](https://hub.docker.com/r/dclong/lubuntu/) | [@GitHub](https://github.com/dclong/docker-lubuntu)
 
-It is suggested that you do NOT use this Docker images as there are issues (please refer to Known Issues) 
+It is suggested that you do NOT use this Docker images and its offspring images as there are issues (please refer to Known Issues) 
 and it is not pratical useful.
 
 ## Usage in Linux/Unix
