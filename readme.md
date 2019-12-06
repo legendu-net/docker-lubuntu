@@ -1,5 +1,8 @@
 # dclong/lubuntu [@DockerHub](https://hub.docker.com/r/dclong/lubuntu/) | [@GitHub](https://github.com/dclong/docker-lubuntu)
 
+It is suggested that you do NOT use this Docker images as there are issues (please refer to Known Issues) 
+and it is not pratical useful.
+
 ## Usage in Linux/Unix
 
 Please refer to the Section
@@ -64,5 +67,7 @@ In addition to the common known issues due to Docker,
 below are some issues specific to dclong/lubuntu.
 
 1. Firefox does not work well in the Docker.
+
+2. Chrome and Terminator installed after launching the Docker container doesn't work well.
 
 ## [About the Author](http://www.legendu.net/pages/about)
