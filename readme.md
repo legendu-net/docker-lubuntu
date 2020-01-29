@@ -3,6 +3,10 @@
 It is suggested that you do NOT use this Docker images and its offspring images as there are issues (please refer to Known Issues) 
 and it is not pratical useful.
 
+## Prerequisite
+You need to [install Docker](http://www.legendu.net/en/blog/docker-installation/) before you use this Docker image.
+
+
 ## Usage in Linux/Unix
 
 Please refer to the Section
