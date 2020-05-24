@@ -26,8 +26,8 @@ docker run -d \
     -e DOCKER_USER_ID=$(id -u) \
     -e DOCKER_PASSWORD=$(id -un) \
     -e DOCKER_GROUP_ID=$(id -g) \
-    -v $(pwd):/workdir \
-    -v $(dirname $HOME):/home_host \
+    -v "$(pwd)":/workdir \
+    -v "$(dirname $HOME)":/home_host \
     --cap-add=SYS_PTRACE \
     dclong/lubuntu /scripts/sys/init.sh
 ```
@@ -44,8 +44,8 @@ docker run -d \
     -e DOCKER_USER_ID=$(id -u) \
     -e DOCKER_PASSWORD=$(id -un) \
     -e DOCKER_GROUP_ID=$(id -g) \
-    -v $(pwd):/workdir \
-    -v $(dirname $HOME):/home_host \
+    -v "$(pwd)":/workdir \
+    -v "$(dirname $HOME)":/home_host \
     --cap-add=SYS_PTRACE \
     dclong/lubuntu /scripts/sys/init.sh
 ```
@@ -61,10 +61,6 @@ for detailed instruction on how to use the desktop environment in the Docker ima
 ## [Log Information](http://www.legendu.net/en/blog/my-docker-images/#docker-container-logs)
 
 ## [Detailed Information](http://www.legendu.net/en/blog/my-docker-images/#list-of-images-and-detailed-information) 
-
-## [Use the JupyterHub Server](http://www.legendu.net/en/blog/my-docker-images/#use-the-jupyterhub-server)
-
-## [Add a New User to the JupyterHub Server](http://www.legendu.net/en/blog/my-docker-images/#add-a-new-user-to-the-jupyterhub-server)
 
 ## [Known Issues](http://www.legendu.net/en/blog/my-docker-images/#known-issues)
 In addition to the common known issues due to Docker, 
