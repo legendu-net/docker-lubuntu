@@ -5,8 +5,8 @@ ARG version=6.9.2_1
 ARG ver=6.9
 ARG url=https://download.nomachine.com/download/${ver}/Linux/nomachine_${version}_amd64.deb
 
-RUN apt-get update \
-    && DEBIAN_FRONTEND=noninteractive apt-get install -y \
+RUN apt-get -y update \
+    && DEBIAN_FRONTEND=noninteractive apt-get -y install \
         lxqt \
         firefox \
     && curl -sSL $url -o /nomachine.deb \
